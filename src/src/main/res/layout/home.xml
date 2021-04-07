@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical"
+    android:orientation="vertical">
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <ImageView
+            android:id="@+id/ivRS"
+            android:onClick="clickRS"
+            android:layout_width="match_parent"
+            android:layout_height="266dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/rumahsakit"
+            android:contentDescription="@string/todo3" />
+
+        <ImageView
+            android:id="@+id/ivPolisi"
+            android:onClick="clickPolisi"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/polisi"
+            android:contentDescription="@string/todo2" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <ImageView
+            android:id="@+id/ivBank"
+            android:onClick="clickBank"
+            android:layout_width="match_parent"
+            android:layout_height="217dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/sekolah"
+            android:contentDescription="@string/todo1" />
+
+        <ImageView
+            android:id="@+id/ivmall"
+            android:onClick="clickMall"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/pasar"
+            android:contentDescription="@string/todo" />
+    </TableRow>
+</LinearLayout>
